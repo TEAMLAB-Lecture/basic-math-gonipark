@@ -24,7 +24,8 @@ def get_greatest(number_list):
             >>> bm.get_greatest(number_list)
             99
     """
-    greatest_number = max(number_list)
+    import basic_math as bm
+    greatest_number = bm.get_greatest(number_list)
     return greatest_number
 
 
@@ -45,7 +46,8 @@ def get_smallest(number_list):
             >>> bm.get_smallest(number_list)
             11
     """
-    smallest_number = min(number_list)
+    import basic_math as bm
+    smallest_number = bm.get_greatest(number_list)
     return smallest_number
 
 
