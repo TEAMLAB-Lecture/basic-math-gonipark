@@ -90,5 +90,6 @@ def get_median(number_list):
             >>> bm.get_median(number_list2)
             35.5
     """
-    median = median(number_list)
+    import basic_math as bm
+    median = bm.get_median(number_list)
     return median
